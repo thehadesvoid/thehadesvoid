@@ -36,7 +36,7 @@
 ---
 
 <!-- ABOUT ME TERMINAL BLOCK -->
-## `$ whoami`
+
 
 ```python
 class VinitPatil:
@@ -74,7 +74,7 @@ print(me.fun_fact)
 ---
 
 <!-- GITHUB SNAKE -->
-## `$ watch -n 1 git log --oneline`
+
 
 <div align="center">
 
@@ -86,10 +86,6 @@ print(me.fun_fact)
 
 </div>
 
-> **⚙️ Setup:** Add this to `.github/workflows/snake.yml` in your profile repo to power the snake 👆
-
-<details>
-<summary><b>🐍 Click to see snake workflow config</b></summary>
 
 ```yaml
 name: Generate Snake
@@ -132,7 +128,7 @@ jobs:
 ---
 
 <!-- GITHUB STATS -->
-## `$ git stats --global`
+
 
 <div align="center">
 
@@ -149,7 +145,7 @@ jobs:
 ---
 
 <!-- GITHUB TROPHIES -->
-## `$ achievement --list`
+
 
 <div align="center">
 
@@ -160,7 +156,7 @@ jobs:
 ---
 
 <!-- TECH STACK - ORGANIZED -->
-## `$ apt list --installed`
+
 
 ### ⚡ Languages
 <p>
@@ -216,7 +212,7 @@ jobs:
 ---
 
 <!-- ACTIVITY GRAPH -->
-## `$ git log --graph --all --pretty=oneline`
+
 
 <div align="center">
 
@@ -227,7 +223,7 @@ jobs:
 ---
 
 <!-- DEV QUOTE -->
-## `$ fortune | cowsay`
+
 
 <div align="center">
 
