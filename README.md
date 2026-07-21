@@ -47,6 +47,7 @@
 🚀 Building, learning & shipping
 
 
+me = VinitPatil()
 
 ---
 
