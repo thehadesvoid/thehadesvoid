@@ -47,10 +47,6 @@
 🚀 Building, learning & shipping
 
 
-me = VinitPatil()
-print(me.fun_fact)
-# >>> 🏆 Won a FinTech Hackathon building a Momentum Trading Engine
-```
 
 ---
 
