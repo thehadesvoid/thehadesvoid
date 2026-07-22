@@ -38,7 +38,7 @@
 <!-- ABOUT ME TERMINAL BLOCK -->
 
 
-```python
+```text
 🎓 Computer Science & Business Systems
 🏆 Award-winning Project Builder
 🥇 1 X Hackathon Winner
@@ -46,62 +46,7 @@
 💡 AI • Finance • Analysis
 🚀 Building, learning & shipping
 
-
-me = VinitPatil()
-
----
-
-<!-- GITHUB SNAKE -->
-
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thehadesvoid/thehadesvoid/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thehadesvoid/thehadesvoid/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/thehadesvoid/thehadesvoid/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-</div>
-
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-
-    steps:
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
-
-</details>
 
 ---
 
