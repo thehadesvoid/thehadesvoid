@@ -40,12 +40,16 @@
 
 ```text
 🎓 Computer Science & Business Systems
-🏆 Award-winning Project Builder
-🥇 1 X Hackathon Winner
-🌍 Leadership & Diplomacy
-💡 AI • Finance • Analysis
-🚀 Building, learning & shipping
 
+🏆 Award-winning Project Builder
+
+🥇 1 X Hackathon Winner
+
+🌍 Leadership & Diplomacy
+
+💡 AI • Finance • Analysis
+
+🚀 Building, learning & shipping
 ```
 
 ---
